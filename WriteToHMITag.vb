@@ -1,6 +1,7 @@
 
 Dim WithEvents oGroup As TagGroup
 
+'------------------------------------------------------
 
 Sub SetUpTagGroup()
 
@@ -20,7 +21,7 @@ Sub SetUpTagGroup()
     End If
 
 End Sub
-
+'------------------------------------------------------
 Sub SetTagValue_Second()
 
     On Error Resume Next
@@ -51,7 +52,7 @@ Sub SetTagValue_Second()
     End If
 
 End Sub
-
+'------------------------------------------------------
 Sub SetTagValue_Batch_Status()
 
     On Error Resume Next
